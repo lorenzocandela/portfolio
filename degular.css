@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Degular-Thin';
+  src: url('./fonts/degular/WEB/fonts/Degular-Thin.otf');
+       font-weight: 100;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Degular-Light';
+  src: url('./fonts/degular/WEB/fonts/Degular-Light.otf');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Degular-MonoRegular';
+  src: url('./fonts/degular/WEB/fonts/DegularMono-Regular.otf');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Degular-Italic';
+  src: url('./fonts/degular/WEB/fonts/DegularMono-RegularItalic.otf');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Degular-Regular';
+  src: url('./fonts/degular/WEB/fonts/Degular-Regular.otf');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Degular-Medium';
+  src: url('./fonts/degular/WEB/fonts/Degular-Medium.otf');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Degular-MonoMedium';
+  src: url('./fonts/degular/WEB/fonts/DegularMono-Medium.otf');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Degular-Bold';
+  src: url('./fonts/degular/WEB/fonts/Degular-Bold.otf');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Degular-Extrabold';
+  src: url('./fonts/degular/WEB/fonts/Degular-Extrabold.otf');
+       font-weight: 800;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Degular-Black';
+  src: url('./fonts/degular/WEB/fonts/Degular-Regular.otf');
+       font-weight: 900;
+       font-display: swap;
+       font-style: normal;
+}
+
