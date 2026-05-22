@@ -10,6 +10,16 @@
         <div class="craft-container">
             <div class="row">
                 <div class="craft-box">
+                    <a onclick="changeInclude(event, 'fm26')"><img src="../img/craft/fm26.png"></a>
+                    <div class="craft-desc">
+                        <span class="craft-title">FM26</span>
+                        <span class="craft-subtitle">App Dev</span>
+                    </div>
+                    <div class="craft-desc-dx">
+                        <span class="craft-date">2026</span>
+                    </div>
+                </div>
+                <div class="craft-box">
                     <a onclick="changeInclude(event, 'calcifer')"><img src="../img/craft/calcifer.png"></a>
                     <div class="craft-desc">
                         <span class="craft-title">Calcifer</span>
@@ -29,6 +39,8 @@
                         <span class="craft-date">2025</span>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="craft-box">
                     <a onclick="changeInclude(event, 'fantaeuro')"><img src="../img/craft/fantaeuro.png"></a>
                     <div class="craft-desc">
@@ -39,8 +51,6 @@
                         <span class="craft-date">2024</span>
                     </div>
                 </div>
-            </div>
-            <div class="row">
                 <div class="craft-box">
                     <a onclick="changeInclude(event, 'uabisabi')"><img src="../img/craft/uabisabi.png"></a>
                     <div class="craft-desc">
@@ -49,16 +59,6 @@
                     </div>
                     <div class="craft-desc-dx">
                         <span class="craft-date">2024</span>
-                    </div>
-                </div>
-                <div class="craft-box">
-                    <a onclick="changeInclude(event, 'rosiko')"><img src="../img/craft/rosiko.png"></a>
-                    <div class="craft-desc">
-                        <span class="craft-title">Rosiko</span>
-                        <span class="craft-subtitle">Board Game</span>
-                    </div> 
-                    <div class="craft-desc-dx">
-                        <span class="craft-date">2023</span>
                     </div>
                 </div>
                 <div class="craft-box">
