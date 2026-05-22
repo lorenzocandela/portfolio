@@ -50,9 +50,9 @@
                 <span class="sez"><a href="#" onclick="changeInclude(event, 'uabisabi')">Uabisabi</a></span>
                 <span class="sez-title sez-title-last">DEV</span>
                 <span class="sez"><a href="#" onclick="changeInclude(event, 'fm26')">FM26</a></span>
+                <span class="sez"><a href="#" onclick="changeInclude(event, 'calcifer')">Calcifer</a></span>
                 <span class="sez"><a href="#" onclick="changeInclude(event, 'fnba')">FNBA</a></span>
                 <span class="sez"><a href="#" onclick="changeInclude(event, 'fantaeuro')">FantaEuro</a></span>
-                <span class="sez"><a href="#" onclick="changeInclude(event, 'calcifer')">Calcifer</a></span>
             </div>
             <div class="indice-last">
                 <span class="sez-title">CONTACT</span>
