@@ -6,19 +6,19 @@
     </div>
     <div class="bottom">
         <span class="text">
-        Calcifer is a comprehensive P2P lending platform developed as the final capstone project for my Bachelor’s Degree in Computer Science (L-31). 
+        Calcifer is a P2P lending platform developed as the final capstone project for my bachelor’s degree in computer science (L-31 Pegaso). 
         It operates as a digital intermediary-free ecosystem, connecting "Howl" (users seeking loans) directly with "Calcifer" (investors with liquidity). 
         The project was built to address a specific gap in the consumer lending market, replicating real-world regulatory logic while maintaining a highly accessible, mobile-first interface.
         <br><br>
-        <strong>The "vanilla" engineering philosophy</strong><br>
-        A core objective of this project was to build a robust, secure financial application entirely from scratch, without the abstraction of modern frameworks like React, Vue, or PHP ORMs. This ensured total control over performance, database queries, and the application architecture.
+        <strong>The "vanilla" engineering philosophy:</strong><br>
+        A core objective of this project was to build a robust, secure financial application entirely from scratch, without the abstraction of modern frameworks. This ensured total control over performance, database queries, and the application architecture.
         <br><br>
         <strong>Key technical highlights:</strong><br>
-        - <strong>Algorithmic Gamification:</strong> The platform features a dynamic Credit Score system (ranging from 0 to 500, with gamified tiers like "Scintilla" to "Calcifer"). This score isn't just visual; it actively drives the platform's financial logic by calculating the proposed interest rate using the formula <code>max(3.0, 15.0 - (credit_score / 20.0))</code>.<br>
+        - <strong>Algorithmic gamification:</strong> The platform features a dynamic credit score system (ranging from 0 to 500, with gamified tiers like "Scintilla" to "Calcifer"). This score isn't just visual, it actively drives the platform's financial logic by calculating the proposed interest rate using the formula <code>max(3.0, 15.0 - (credit_score / 20.0))</code>.<br>
         - <strong>Data integrity & ACID transactions:</strong> The database relies on an optimized MariaDB InnoDB schema (8 relational tables). Critical financial operations, such as loan funding and wallet balance updates, are executed using strict ACID transactions (explicit BEGIN/COMMIT/ROLLBACK) to guarantee zero data corruption during multi-table operations.<br>
         - <strong>Advanced security & Cryptography:</strong> Authentication is stateless, utilizing HS256-signed JWTs stored securely via HttpOnly cookies. Furthermore, user negotiations happen in a private chat where all messages are encrypted end-to-end using AES-256-CBC, meaning sensitive data remains entirely unreadable at the database level.<br>
-        - <strong>Frontend architecture (PWA):</strong> Built with ES modules and a custom CSS-variable Design System, the interface acts as a Progressive Web App (PWA). A Service Worker handles the caching of static assets, ensuring that core features like the user's wallet remain accessible even offline.<br>
-        - <strong>Infrastructure & DevOps:</strong> The system is deployed on a production-ready Rocky 9 Linux VPS utilizing Apache and PHP-FPM, hardened with specific SELinux security policies. The RESTful API layer is fully documented using an OpenAPI 3.0 specification via Swagger UI, ensuring a strict contract between the frontend and backend.
+        - <strong>Frontend architecture (PWA):</strong> Built with ES modules and a custom CSS-variable design system, the interface acts as a progressive web app (PWA). A service worker handles the caching of static assets, ensuring that core features like the user's wallet remain accessible even offline.<br>
+        - <strong>Infrastructure & DevOps:</strong> The system is deployed on a production-ready Rocky 9 linux VPS utilizing Apache and PHP-FPM, hardened with specific SELinux security policies. The RESTful API layer is fully documented using an OpenAPI 3.0 specification via Swagger UI, ensuring a strict contract between the frontend and backend.
         <br><br>
         Calcifer is not just a prototype; it is a fully functioning case study that demonstrates deep proficiency in full-stack development, cryptography, database engineering, and server administration.
         </span>
@@ -41,7 +41,7 @@
         </div>
         <div class="info-text">
             <span class="text text-title"><span class="bold">Tech Stack</span></span>
-            <span class="text text-subtitle">PHP 8.1, MariaDB, Vanilla JS/CSS, JWT, AES-256, OpenAPI 3.0, PWA</span>
+            <span class="text text-subtitle">PHP 8.1, MariaDB, Vanilla JS/CSS,<br>JWT, AES-256, OpenAPI 3.0, PWA</span>
         </div>
         <div class="info-text">
             <span class="text text-title"><span class="bold">Environment</span></span>
