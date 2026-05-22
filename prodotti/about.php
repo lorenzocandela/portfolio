@@ -10,6 +10,16 @@
         <div class="craft-container">
             <div class="row">
                 <div class="craft-box">
+                    <a onclick="changeInclude(event, 'calcifer')"><img src="../img/craft/calcifer.png"></a>
+                    <div class="craft-desc">
+                        <span class="craft-title">Calcifer</span>
+                        <span class="craft-subtitle">App Dev</span>
+                    </div>
+                    <div class="craft-desc-dx">
+                        <span class="craft-date">2026</span>
+                    </div>
+                </div>
+                <div class="craft-box">
                     <a onclick="changeInclude(event, 'fnba')"><img src="../img/craft/fnba.png"></a>
                     <div class="craft-desc">
                         <span class="craft-title">FNBA</span>
@@ -29,6 +39,8 @@
                         <span class="craft-date">2024</span>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="craft-box">
                     <a onclick="changeInclude(event, 'uabisabi')"><img src="../img/craft/uabisabi.png"></a>
                     <div class="craft-desc">
@@ -39,8 +51,6 @@
                         <span class="craft-date">2024</span>
                     </div>
                 </div>
-            </div>
-            <div class="row">
                 <div class="craft-box">
                     <a onclick="changeInclude(event, 'rosiko')"><img src="../img/craft/rosiko.png"></a>
                     <div class="craft-desc">
@@ -59,16 +69,6 @@
                     </div>
                     <div class="craft-desc-dx">
                         <span class="craft-date">2023</span>
-                    </div>
-                </div>
-                <div class="craft-box">
-                    <a onclick="changeInclude(event, 'coccolecapricci')"><img src="../img/craft/coccolecapricci.png"></a>
-                    <div class="craft-desc">
-                        <span class="craft-title">Coccole & Capricci</span>
-                        <span class="craft-subtitle">Branding</span>
-                    </div>
-                    <div class="craft-desc-dx">
-                        <span class="craft-date">2022</span>
                     </div>
                 </div>
             </div>
