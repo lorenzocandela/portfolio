@@ -10,6 +10,16 @@
         <div class="craft-container">
             <div class="row">
                 <div class="craft-box">
+                    <a onclick="changeInclude(event, 'tomatovynl')"><img src="../img/craft/tomatovynl.png"></a>
+                    <div class="craft-desc">
+                        <span class="craft-title">TomatoVynl</span>
+                        <span class="craft-subtitle">Web App</span>
+                    </div>
+                    <div class="craft-desc-dx">
+                        <span class="craft-date">2026</span>
+                    </div>
+                </div>
+                <div class="craft-box">
                     <a onclick="changeInclude(event, 'calcifer')"><img src="../img/craft/calcifer.png"></a>
                     <div class="craft-desc">
                         <span class="craft-title">Calcifer</span>
@@ -29,6 +39,8 @@
                         <span class="craft-date">2025</span>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="craft-box">
                     <a onclick="changeInclude(event, 'fantaeuro')"><img src="../img/craft/fantaeuro.png"></a>
                     <div class="craft-desc">
@@ -39,8 +51,6 @@
                         <span class="craft-date">2024</span>
                     </div>
                 </div>
-            </div>
-            <div class="row">
                 <div class="craft-box">
                     <a onclick="changeInclude(event, 'uabisabi')"><img src="../img/craft/uabisabi.png"></a>
                     <div class="craft-desc">
@@ -57,16 +67,6 @@
                         <span class="craft-title">Rosiko</span>
                         <span class="craft-subtitle">Board Game</span>
                     </div> 
-                    <div class="craft-desc-dx">
-                        <span class="craft-date">2023</span>
-                    </div>
-                </div>
-                <div class="craft-box">
-                    <a onclick="changeInclude(event, 'alfred')"><img src="../img/craft/alfred.png"></a>
-                    <div class="craft-desc">
-                        <span class="craft-title">Alfred</span>
-                        <span class="craft-subtitle">UX/UI App</span>
-                    </div>
                     <div class="craft-desc-dx">
                         <span class="craft-date">2023</span>
                     </div>
